@@ -1,0 +1,45 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Cambia esto al color deseado */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li.animation {
+    opacity: 1;
+    transform: translateY(0);
+}

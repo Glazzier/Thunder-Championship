@@ -1,0 +1,71 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Color de fondo */
+}
+
+header, main, footer {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.resultado {
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+/* Estilos específicos para los grupos */
+.grupo {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.grupo h2 {
+    color: #007bff; /* Color azul */
+}
+
+/* Estilos específicos para los cruces ya disputados */
+.resultado::after {
+    content: "✓";
+    color: #28a745; /* Verde */
+    margin-left: 5px;
+}
+
+/* Estilos para los enlaces de los usuarios */
+a {
+    text-decoration: none;
+    color: #007bff; /* Azul */
+}
+
+a:hover {
+    text-decoration: underline;
+}
