@@ -1,0 +1,84 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Color de fondo */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+main {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo gris claro para filas pares */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.grupo {
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.grupo table {
+    margin-top: 10px;
+}
+
+.grupo table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.grupo table td {
+    background-color: #fff;
+    color: #000;
+}
+
+.grupo table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Color de fondo gris claro para filas pares */
+}
+
+.grupo table tbody tr:hover {
+    background-color: #e2e6ea; /* Color de fondo gris claro al pasar el ratón */
+}
